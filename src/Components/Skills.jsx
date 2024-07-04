@@ -18,14 +18,16 @@ const Skills = () => {
       <div className="">
         <SectionTItle heading="My Skills"></SectionTItle>
         <div className="flex items-center justify-center gap-5">
-          <img className="w-16" src={reactimg} alt="" />
-          <img className="w-16" src={css} alt="" />
-          <img className="w-16" src={js} alt="" />
-          <img className="w-16" src={tailwind} alt="" />
-          <img className="w-14" src={firebase} alt="" />
-          <img className="w-28" src={mongodb} alt="" />
-          <img className="w-28" src={express} alt="" />
-          <img className="w-20" src={nodejs} alt="" />
+          <div className="grid grid-cols-4 md:grid-cols-8 gap-5">
+            <img className="w-16" src={reactimg} alt="" />
+            <img className="w-16" src={css} alt="" />
+            <img className="w-16" src={js} alt="" />
+            <img className="w-16" src={tailwind} alt="" />
+            <img className="w-14 mt-2" src={firebase} alt="" />
+            <img className="w-28 mt-2" src={mongodb} alt="" />
+            <img className="w-28 mt-2" src={express} alt="" />
+            <img className="w-20 mt-2" src={nodejs} alt="" />
+          </div>
         </div>
         <div className="flex items-center justify-center gap-5 mt-3">
           <img className="w-20" src={vscode} alt="" />
