@@ -2,22 +2,30 @@ import { IoDownloadOutline } from 'react-icons/io5';
 import bannerimg from '../assets/bannerimg1.png';
 const Banner = () => {
     return (
-      <div className="bg-slate-900 pt-2 pb-5 px-16">
+      <div className="bg-slate-900 py-10 px-16">
         <div className="flex items-center justify-between flex-col lg:flex-row">
           <div className="">
-            <p className="text-3xl font-bold">Hi, I am Aayman!</p>
-            <p className="pb-6 text-5xl text-[#7ce0d3] font-bold">
-              A Web Developer
+            <p className="text-5xl font-bold mb-4">
+              Hi, I am <br /> Aayman Alfee Rahman!
+            </p>
+            <p className="pb-4 text-5xl text-[#7ce0d3] font-bold">
+              A Junior Web Developer
+            </p>
+            <p className="pb-6 w-3/4">
+              With a solid foundation in web development and a passion for
+              building responsive and user-centric web applications, I
+              specialize in HTML, CSS, JavaScript, and React. Committed to
+              continuous learning and professional growth
             </p>
             <button className="btn font-medium text-base btn-primary">
               Resume
-              <IoDownloadOutline className='font-medium text-xl' />
+              <IoDownloadOutline className="font-medium text-xl" />
             </button>
           </div>
           <div className="">
             <img
               src={bannerimg}
-              className="w-[300px] rounded-full border-[#7ce0d3] border-2"
+              className="w-[600px] rounded-full border-[#7ce0d3] border-2"
             />
           </div>
         </div>
