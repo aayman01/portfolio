@@ -1,5 +1,7 @@
 import { IoDownloadOutline } from 'react-icons/io5';
 import bannerimg from '../assets/bannerimg1.png';
+import resume from '../assets/Aayman CV (1).pdf';
+import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 const Banner = () => {
     return (
       <div className="bg-slate-900 py-10 px-4 md:px-16 w-full">
@@ -21,10 +23,33 @@ const Banner = () => {
               . Committed to continuous learning and professional growth. Always
               eager to learn and take on new challenges
             </p>
-            <button className="btn font-medium text-base btn-primary">
-              Resume
-              <IoDownloadOutline className="font-medium text-xl" />
-            </button>
+            <div className='flex items-center gap-5'>
+              <button className="btn font-medium text-base btn-primary">
+                <a href={resume} download='resume'>Resume</a>
+                <IoDownloadOutline className="font-medium text-xl" />
+              </button>
+              <a
+                className="text-3xl"
+                href="https://www.facebook.com/aayman.rahman.3"
+                target="blank"
+              >
+                <FaFacebook />
+              </a>
+              <a
+                className="text-3xl"
+                href="https://www.instagram.com/abman_rahman/?hl=en"
+                target="blank"
+              >
+                <FaInstagram />
+              </a>
+              <a
+                className="text-3xl"
+                href="https://www.linkedin.com/in/aayman-alfee-rahman"
+                target="blank"
+              >
+                <FaLinkedin />
+              </a>
+            </div>
           </div>
           <div className="">
             <img
