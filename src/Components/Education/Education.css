@@ -52,3 +52,22 @@
 .checkpoint:nth-child(even)::before{
     left: 0;
 }
+
+@media screen and (max-width : 1150px){
+    .timeline{
+        width: 80vh;
+    }
+    .timeline .checkpoint{
+        width: 100%;
+        transform: none;
+        padding-left: 0;
+        border: none;
+    }
+    /* .timeline .checkpoint::before{
+        width: 3px;
+        height: 4em;
+        top: -2rem;
+        left: 50%;
+        transform: translateX(-50%);
+    } */
+}
