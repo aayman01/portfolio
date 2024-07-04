@@ -1,4 +1,5 @@
 
+// eslint-disable-next-line react/prop-types
 const SectionTItle = ({heading}) => {
     return (
       <div className="my-20">

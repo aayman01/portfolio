@@ -17,11 +17,11 @@ const Projects = () => {
       <div>
         <SectionTItle heading="Projects"></SectionTItle>
         <div className="px-4 md:px-10">
-          <div className="flex items-center justify-between bg-primary shadow-xl text-white rounded-xl mt-10 gap-6">
-            <div className="w-1/2 ml-4">
+          <div className="flex flex-col md:flex-row items-center justify-between bg-primary shadow-xl text-white rounded-xl mt-10 gap-6 p-4 md:p-10">
+            <div className="w-1/2 md:ml-4">
               <img className="w-full" src={img} alt="Projects Picture" />
             </div>
-            <div className="w-3/4 mt-10 pr-3">
+            <div className="md:w-3/4 mt-10 md:pr-3">
               <h2 className="text-3xl font-bold">PharmaPlaza</h2>
               <p>
                 {" "}
@@ -45,8 +45,8 @@ const Projects = () => {
                 smartphones and tablets.
               </p>
 
-              <p className="text-2xl font-bold">Technology Used</p>
-              <div className="flex items-center gap-2 mt-3">
+              <p className="text-2xl font-bold mt-4">Technology Used</p>
+              <div className="grid grid-cols-3 md:grid-cols-7 mt-3">
                 <img className="w-12" src={reactimg} alt="" />
                 <img className="w-14" src={css} alt="" />
                 <img className="w-14" src={tailwind} alt="" />
@@ -84,8 +84,8 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-between bg-primary shadow-xl text-white rounded-xl mt-10 gap-6 p-6">
-            <div className="w-3/4 mt-10 pr-3">
+          <div className="flex flex-col-reverse md:flex-row items-center justify-between bg-primary shadow-xl text-white rounded-xl mt-10 gap-6 p-4 md:p-6">
+            <div className="md:w-3/4 mt-10 md:pr-3">
               <h2 className="text-4xl font-bold mb-3">HealthTap</h2>
               <p>
                 {" "}
@@ -105,8 +105,8 @@ const Projects = () => {
                 smartphones. Manage your health on the go with ease.
               </p>
 
-              <p className="text-2xl font-bold">Technology Used</p>
-              <div className="flex items-center gap-2 mt-3">
+              <p className="text-2xl font-bold mt-4">Technology Used</p>
+              <div className="grid grid-cols-3 md:grid-cols-7 mt-3">
                 <img className="w-12" src={reactimg} alt="" />
                 <img className="w-14" src={css} alt="" />
                 <img className="w-14" src={tailwind} alt="" />
@@ -149,11 +149,11 @@ const Projects = () => {
           </div>
         </div>
         <div className="px-4 lg:px-10">
-          <div className="flex items-center justify-between bg-primary shadow-xl text-white rounded-xl mt-10 gap-6 p-4">
-            <div className="w-1/2 ml-4">
+          <div className="flex flex-col md:flex-row items-center justify-between bg-primary shadow-xl text-white rounded-xl mt-10 gap-6 p-4 md:p-10">
+            <div className="w-1/2 md:ml-4">
               <img className="w-full" src={project3} alt="Projects Picture" />
             </div>
-            <div className="w-3/4 mt-10 pr-3">
+            <div className="md:w-3/4 mt-10 md:pr-3">
               <h2 className="text-3xl font-bold">OilArtistry</h2>
               <p>
                 {" "}
@@ -177,8 +177,8 @@ const Projects = () => {
                 anywhere.
               </p>
 
-              <p className="text-2xl font-bold">Technology Used</p>
-              <div className="flex items-center gap-2 mt-3">
+              <p className="text-2xl font-bold mt-4">Technology Used</p>
+              <div className="grid grid-cols-3 md:grid-cols-7 mt-3">
                 <img className="w-12" src={reactimg} alt="" />
                 <img className="w-14" src={css} alt="" />
                 <img className="w-14" src={tailwind} alt="" />
