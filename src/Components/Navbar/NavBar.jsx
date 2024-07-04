@@ -14,9 +14,6 @@ const NavBar = () => {
               <button className="font-bold">Skills</button>
             </li>
             <li>
-              <button className="font-bold">About Me</button>
-            </li>
-            <li>
               <button className="font-bold">Projects</button>
             </li>
             <li>
