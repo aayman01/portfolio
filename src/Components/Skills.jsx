@@ -15,7 +15,7 @@ import { FaGitAlt } from "react-icons/fa";
 
 const Skills = () => {
     return (
-      <div className="">
+      <div className="" id="skills">
         <SectionTItle heading="My Skills"></SectionTItle>
         <div className="flex items-center justify-center gap-5">
           <div className="grid grid-cols-4 md:grid-cols-8 gap-5">

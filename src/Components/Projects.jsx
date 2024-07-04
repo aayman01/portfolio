@@ -15,7 +15,7 @@ import { RxExternalLink } from "react-icons/rx";
 
 const Projects = () => {
     return (
-      <div>
+      <div id="projects">
         <SectionTItle heading="Projects"></SectionTItle>
         <div className="">
           <div className="flex flex-col md:flex-row items-center justify-between bg-primary shadow-xl text-white rounded-xl mt-10 gap-6 p-4 md:p-10">

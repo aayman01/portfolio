@@ -11,14 +11,14 @@ const NavBar = () => {
         <div className="flex-none mr-5">
           <ul className="menu menu-horizontal px-1 text-[#7ce0d3] text-lg">
             <li>
-              <button className="font-bold">Skills</button>
+              <a href='#skills' className="font-bold">Skills</a>
             </li>
             <li>
-              <button className="font-bold">Projects</button>
+              <a href='#projects' className="font-bold">Projects</a>
             </li>
-            <li>
-              <button className="font-bold">Contacts</button>
-            </li>
+            {/* <li>
+              <a href='#contacts' className="font-bold">Contacts</a>
+            </li> */}
           </ul>
         </div>
       </div>

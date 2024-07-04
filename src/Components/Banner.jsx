@@ -2,6 +2,8 @@ import { IoDownloadOutline } from 'react-icons/io5';
 import bannerimg from '../assets/bannerimg1.png';
 import resume from '../assets/Aayman CV (1).pdf';
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+
+
 const Banner = () => {
     return (
       <div className="bg-slate-900 py-10 px-4 md:px-16 w-full">
