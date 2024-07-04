@@ -18,7 +18,8 @@ const Banner = () => {
               <span className="text-[#7ce0d3] font-medium">
                 HTML, CSS, JavaScript, and React
               </span>
-              . Committed to continuous learning and professional growth
+              . Committed to continuous learning and professional growth. Always
+              eager to learn and take on new challenges
             </p>
             <button className="btn font-medium text-base btn-primary">
               Resume

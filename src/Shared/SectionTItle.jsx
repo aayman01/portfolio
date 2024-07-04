@@ -1,9 +1,11 @@
 
 const SectionTItle = ({heading}) => {
     return (
-        <div className="my-20">
-            <h2 className="font-bold text-4xl text-center underline">{heading}</h2>
-        </div>
+      <div className="my-20">
+        <h2 className="font-bold text-4xl text-center underline text-[#7ce0d3]">
+          {heading}
+        </h2>
+      </div>
     );
 };
 
