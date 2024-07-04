@@ -5,12 +5,14 @@ import Skills from "../Components/Skills";
 
 const Main = () => {
     return (
-        <div>
-            <NavBar/>
-            <Banner/>
-            <Skills/>
-            <Projects/>
+      <div>
+        <NavBar />
+        <div className="max-w-6xl mx-auto px-4">
+          <Banner />
+          <Skills />
+          <Projects />
         </div>
+      </div>
     );
 };
 

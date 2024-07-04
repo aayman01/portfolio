@@ -5,6 +5,7 @@ import reactimg from "../assets/react.png";
 import firebase from "../assets/firebase.png";
 import css from "../assets/css.png";
 import tailwind from "../assets/tailwind.png";
+import js from "../assets/javascript.png"
 import mongodb from "../assets/mongodb.png";
 import nodejs from "../assets/nodejs.png";
 import express from "../assets/express.png";
@@ -16,7 +17,7 @@ const Projects = () => {
     return (
       <div>
         <SectionTItle heading="Projects"></SectionTItle>
-        <div className="px-4 md:px-10">
+        <div className="">
           <div className="flex flex-col md:flex-row items-center justify-between bg-primary shadow-xl text-white rounded-xl mt-10 gap-6 p-4 md:p-10">
             <div className="w-1/2 md:ml-4">
               <img className="w-full" src={img} alt="Projects Picture" />
@@ -49,6 +50,7 @@ const Projects = () => {
               <div className="grid grid-cols-3 md:grid-cols-7 mt-3">
                 <img className="w-12" src={reactimg} alt="" />
                 <img className="w-14" src={css} alt="" />
+                <img className="w-14" src={js} alt="" />
                 <img className="w-14" src={tailwind} alt="" />
                 <img className="w-12" src={firebase} alt="" />
                 <img className="w-20" src={mongodb} alt="" />
@@ -148,7 +150,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="px-4 lg:px-10">
+        <div className="">
           <div className="flex flex-col md:flex-row items-center justify-between bg-primary shadow-xl text-white rounded-xl mt-10 gap-6 p-4 md:p-10">
             <div className="w-1/2 md:ml-4">
               <img className="w-full" src={project3} alt="Projects Picture" />
