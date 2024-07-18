@@ -1,6 +1,6 @@
 import { IoDownloadOutline } from 'react-icons/io5';
 import bannerimg from '../assets/bannerimg1.png';
-import resume from '../assets/Aayman CV (1).pdf';
+import resume from '../assets/Aayman Resume.pdf';
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 
