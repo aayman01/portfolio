@@ -1,4 +1,5 @@
 import Banner from "../Components/Banner";
+// import Contact from "../Components/contact";
 import Education from "../Components/Education/Education";
 import Footer from "../Components/Footer";
 import NavBar from "../Components/Navbar/NavBar";
@@ -14,6 +15,7 @@ const Main = () => {
           <Skills />
           <Projects />
           <Education/>
+          {/* <Contact/> */}
         </div>
           <Footer/>
       </div>
